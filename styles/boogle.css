@@ -47,6 +47,14 @@ html, body {
 	margin: 200px auto auto auto;
 }
 
+.login-container {
+	width: 300px;
+	height: 450px;
+	margin: 150px auto auto auto;
+  border: 1px solid #dadce0;
+	padding: 20px;
+}
+
 .navigation a {
 	float: right;
 	margin: 10px;
@@ -67,12 +75,35 @@ html, body {
 	color: white;
 }
 
+.Prijava_button {
+	height: 50px;
+	width: 80px;
+	margin-top: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-left: 20px;
+	font-family: 'Google Sans',arial,sans-serif;
+	font-size: 20px;
 
+}
+.Boogle_racun_button {
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 20px;
+	font-family: roboto,arial,sans-serif;
+}
 
 .boogle_image {
 	height: 150px;
 	width: auto;
 
+}
+
+.boogle_image2{
+	height: 10px;
+	width: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .input {
@@ -100,4 +131,26 @@ html, body {
   font-family: arial,sans-serif;
 	font-size: 13px;
   font-weight: bold;
+}
+
+.forgot_password {
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+}
+.forgot {
+	border-radius: 4px;
+  color: #1a73e8;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer_navigation{
+	width: 300px;
+	height: 100px;
+	margin-left: 400px;
+	margin-right: 100px;
+	margin-top: 30px;
+	text-decoration: none;
 }
